@@ -1,0 +1,30 @@
+{
+  "name": "basic-information-site",
+  "version": "1.0.0",
+  "description": "basic information site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmahawewa/basic-information-site.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "http"
+  ],
+  "author": "Ravini Mahawewa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmahawewa/basic-information-site/issues"
+  },
+  "homepage": "https://github.com/rmahawewa/basic-information-site#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "url": "^0.11.4"
+  }
+}
