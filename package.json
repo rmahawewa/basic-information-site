@@ -4,7 +4,8 @@
 	"description": "basic information site",
 	"main": "app.js",
 	"scripts": {
-		"test": "npm run test"
+		"test": "npm run test",
+		"dev": "node --watch src/app.js"
 	},
 	"repository": {
 		"type": "git",
@@ -23,6 +24,7 @@
 	},
 	"homepage": "https://github.com/rmahawewa/basic-information-site#readme",
 	"dependencies": {
+		"express": "^5.1.0",
 		"fs": "^0.0.1-security",
 		"http": "^0.0.1-security",
 		"url": "^0.11.4"
